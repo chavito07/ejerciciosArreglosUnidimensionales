@@ -22,7 +22,7 @@ public class ejercicio10partidos {
             }
         }
 
-        // b) Contar cuántas veces gano el Sevilla
+        // b) Contar cuantas veces gano el Sevilla
         int contadorSevilla = 0;
         for (PartidoFutbol partido : partidos) {
             if (partido.getEquipolocal().equals("Sevilla") && partido.getGoleolocal() > partido.getGoleVisitante()) {
